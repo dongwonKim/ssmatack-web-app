@@ -1,0 +1,81 @@
+@font-face {
+    font-family: myFont1;
+    src: url("../fonts/Blox2.ttf");
+}
+
+
+@font-face {
+    font-family: myFont2;
+    src: url("../fonts/BebasNeue.otf");
+}
+
+body{
+	background: black;
+}
+
+
+#side{
+	margin-left:50px;
+	margin-top:50px;
+	float: left;
+}
+
+#self{
+	width:200px;
+	height: 200px;
+	background-color: white;
+}
+
+#challenger{
+
+
+}
+
+#score{
+
+
+}
+
+#timer{
+
+
+}
+
+#game{
+	float: right;
+	width: 80%;
+	height: 100%;
+	background-color: yellow;
+	margin-right:100px;
+	margin-top:50px;
+}
+
+.info{
+	width:200px;
+	height: 100px;
+	color:white;
+	font-family: myFont2;
+	font-size:20pt;
+	background-color: #1976D2;
+	padding-left:4px;
+	margin-bottom: 5px;
+	margin-top:-2px;
+}
+
+.info2{
+	text-align: center;
+	font-size:40pt;
+	margin-top:-10px;
+}
+
+footer{
+	font-size:200%;
+	font-family:myFont2;
+	position:fixed;
+	left:0px;
+	bottom:20px;
+	height:30px;
+	width:100%;
+	text-align: center;
+	color: white;
+}
